@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color:darksalmon
+}
+
+.container {
+    max-width: 600px;
+    margin: 100px auto;
+    padding: 0 20px;
+}
+
+/* Card */
+.card {
+    background-color: #fffacd;
+    margin: 20px 0;
+    padding: 20px 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+.card h2 {
+    font-size: 27px;
+    margin-bottom: 20px;
+}
+
+.card p {
+   font-size: 18px;
+   color: #f82f0b;
+   margin-bottom: 30px;
+}
+
+/* Heading Colors */
+.card-sporty h2 {
+color: #391ed6;
+}
+
+.card-casual h2 {
+    color: #1287e6;
+}
+
+.card-formal h2 {
+    color: #65cfdd;
+} 
+
+.card a {
+    text-decoration: none; 
+    color: rgb(12, 1, 1);
+    background-color: rgb(142, 216, 154);
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.card a:hover {
+    opacity: 0.9;
+}
+
+/* Link colors */
+.card-sporty a {
+    background-color: rgb(73, 40, 219);
+}
+
+.card-casual a {
+    background-color: #1287e6;
+}
+.card-formal a {
+    background-color: #7bd0f1;
+}
+
+/* Backrpound images */
+.card-sporty {
+background:#ffffff url("../images/sporty.png") no-repeat center right/200px;
+}
+
+.card-casual {
+    background: #ffffff url("../images/casual.png") no-repeat center right/200px; 
+}
+
+.card-formal {
+    background: #ffffff url("../images/formal.png") no-repeat center right/200px;
+}
